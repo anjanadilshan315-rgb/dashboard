@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .font-playfair {
+    font-family: var(--font-playfair);
+  }
+  .font-poppins {
+    font-family: var(--font-poppins);
+  }
+}
+
+body {
+  background-color: #f5f6fa;
+}
